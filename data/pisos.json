@@ -1,0 +1,9 @@
+{
+  "floor": { "sx": 0, "sy": 0, "cols": 1, "tilew": 32, "tileh": 32, "frames": 1},
+  "floor1": { "sx": 0, "sy": 32, "cols": 1, "tilew": 32, "tileh": 32, "frames": 1},
+  "ice1": { "sx": 32, "sy": 32, "cols": 1, "tilew": 32, "tileh": 32, "frames": 1},
+  "ice2": { "sx": 64, "sy": 32, "cols": 1, "tilew": 32, "tileh": 32, "frames": 1},
+  "icestep": { "sx": 96, "sy": 32, "cols": 1, "tilew": 32, "tileh": 32, "frames": 1},
+  "floor2": { "sx": 0, "sy": 64, "cols": 1, "tilew": 32, "tileh": 32, "frames": 1},
+  "greenstep": { "sx": 96, "sy": 64, "cols": 1, "tilew": 32, "tileh": 32, "frames": 1}
+}

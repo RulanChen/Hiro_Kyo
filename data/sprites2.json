@@ -1,0 +1,10 @@
+{"playerN":{"sx":0,"sy":0,"cols":1,"tilew":32,"tileh":32,"frames":1},
+"enemyN":{"sx":0,"sy":32,"cols":1,"tilew":32,"tileh":32,"frames":1},
+"towerN":{"sx":0,"sy":64,"cols":1,"tilew":32,"tileh":32,"frames":1},
+"dotN":{"sx":0, "sy":96, "cols":1, "tilew":32, "tileh":32 },
+"agent":{"sx":0,"sy":128,"cols":1,"tilew":32,"tileh":32,"frame":1},
+"table":{"sx":0,"sy":160,"cols":1,"tilew":32,"tileh":32,"frame":1},
+"tub":{"sx":0,"sy":192,"cols":1,"tilew":32,"tileh":32,"frame":1},
+"toilet":{"sx":0,"sy":224,"cols":1,"tilew":32,"tileh":32,"frame":1},
+"bed":{"sx":0,"sy":256,"cols":1,"tilew":32,"tileh":32,"frame":1}
+}

@@ -1,0 +1,7 @@
+{
+  "enemy": { "sx": 0, "sy": 0, "cols": 9, "tilew": 32, "tileh": 32, "frames": 9},
+  "portal": { "sx": 0, "sy": 32, "cols": 1, "tilew": 32, "tileh": 32, "frames": 1},
+  "portal1": { "sx": 32, "sy": 32, "cols": 1, "tilew": 32, "tileh": 32, "frames": 1},
+  "portal2": { "sx": 64, "sy": 32, "cols": 1, "tilew": 32, "tileh": 32, "frames": 1},
+  "fire": { "sx": 8, "sy": 75, "cols": 1, "tilew": 13, "tileh": 9, "frames": 1}
+}

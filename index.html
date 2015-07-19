@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=640, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
+  <title>Test_Final</title>
+  <link href='http://fonts.googleapis.com/css?family=Hanalei+Fill' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/main.css"/>
+  <script src='lib/quintus.js'></script>
+  <script src='lib/quintus_sprites.js'></script>
+  <script src='lib/quintus_scenes.js'></script>
+  <script src='lib/quintus_input.js'></script>
+  <script src='lib/quintus_2d.js'></script>
+  <script src="lib/quintus_anim.js"></script>
+  <script src="lib/quintus_audio.js"></script>
+  <script src="lib/quintus_ui.js"></script>
+  <script src="lib/quintus_touch.js"></script>
+  <script src="js/mygame.js"></script>
+  <style>
+    body {
+      padding:0;
+      margin:0;
+    }
+  </style>
+</head>
+<body>
+    <fieldset title="Control Panel" >
+
+        <span aria-hidden="true" class="icon-search"></span>
+
+        <label class="screen-reader-text" for="id-search-field">General Command</label>
+        <input id="myInput" name="q" type="search" role="textbox" class="search-field placeholder" placeholder="Command" value="" tabindex="1"
+            >
+            <label class="screen-reader-text" for="id-search-field">Bot Speed Set</label>
+            <input id="myInput2" name="q3" type="search" role="textbox" class="search-field placeholder" placeholder="Speed" value="" tabindex="1"
+                >
+
+            <button type="submit" name="submit" id="submit" class="search-button" title="Submit this Search" tabindex="3">
+                GO
+            </button>
+
+
+            <p id="demo"></p>
+            <body>
+                <textarea rows="4" cols="50" id="myTextarea" name="q2" readonly >Sensor Information:</textarea>
+            </body>
+            <label class="screen-reader-text" for="id-search-field">Action Command</label>
+            <input id="myInput3" name="q4" type="search" role="textbox" class="search-field placeholder" placeholder="Action" value="" tabindex="1"
+                >
+
+            <button type="submit" name="submit" id="submit" class="search-button" title="Submit this Search" tabindex="3">
+                Execute
+            </button>
+            <body>
+                <textarea rows="4" cols="50" id="myTextarea1" name="q5" readonly >Agent Status:</textarea>
+            </body>
+            <body>
+                <textarea rows="4" cols="50" id="myTextarea2" name="q5" readonly >Object:</textarea>
+            </body>
+            </fieldset>
+</body>
+<body>
+<!--div id='loading'>
+  <div id='loading_container'>
+    <p>Loading...</p>
+
+    <div id='loading_progress'>
+
+    </div>
+  </div>
+</div-->
+<canvas id="slidermap"></canvas>
+
+</body>
+</html>
+<!-- This current Version is not the release version!-->
